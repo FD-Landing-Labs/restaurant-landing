@@ -1,113 +1,67 @@
 {
   "site": {
-    "name": "Grandeur",
-    "tagline": "Luxury Hotel & Resort",
-    "description": "Experience unparalleled luxury at Grandeur - where timeless elegance meets modern sophistication. A 5-star sanctuary for discerning travelers.",
+    "name": "Qitchen",
+    "tagline": "Fine Dining Experience",
+    "description": "Where culinary craftsmanship meets modern elegance. Indulge in the finest cuisine, expertly curated to elevate your dining experience.",
     "logo": {
-      "default": "https://placehold.co/140x50/1a1a1a/c9a962?text=GRANDEUR",
-      "white": "https://placehold.co/140x50/ffffff/1a1a1a?text=GRANDEUR",
-      "alt": "Grandeur Luxury Hotel Logo"
+      "default": "/assets/images/logo.svg",
+      "light": "/assets/images/logo-light.svg",
+      "alt": "Qitchen Restaurant Logo"
     },
     "seo": {
-      "title": "Grandeur - 5-Star Luxury Hotel & Resort",
-      "description": "Discover exceptional hospitality at Grandeur. World-class amenities, exquisite dining, and breathtaking views await you at our prestigious 5-star hotel.",
+      "title": "Qitchen - Fine Dining Restaurant",
+      "description": "Experience culinary excellence at Qitchen. Award-winning fine dining featuring seasonal ingredients, innovative techniques, and impeccable service.",
       "keywords": [
-        "luxury hotel",
-        "5-star resort",
-        "premium accommodation",
         "fine dining",
-        "spa resort",
-        "boutique hotel"
+        "luxury restaurant",
+        "gourmet cuisine",
+        "tasting menu",
+        "chef's table",
+        "michelin restaurant"
       ],
-      "ogImage": "https://placehold.co/1200x630/1a1a1a/c9a962?text=Grandeur+Hotel"
+      "ogImage": "https://placehold.co/1200x630/0a0a0a/d4af37?text=Qitchen+Restaurant"
     },
     "theme": {
-      "primaryColor": "#c9a962",
-      "secondaryColor": "#1a1a1a",
-      "backgroundColor": "#f8f7f4",
-      "accentColor": "#8b7355"
+      "primaryColor": "#d4af37",
+      "secondaryColor": "#0a0a0a",
+      "backgroundColor": "#0a0a0a",
+      "accentColor": "#c9a962",
+      "foregroundColor": "#ffffff",
+      "mutedColor": "#a3a3a3"
     }
   },
   "navbar": {
-    "brandName": "Grandeur",
-    "brandMark": "",
+    "brandName": "Qitchen",
     "logo": {
-      "default": "/assets/images/logo.png",
-      "white": "https://placehold.co/140x50/ffffff/1a1a1a?text=GRANDEUR",
-      "alt": "Grandeur Luxury Hotel Logo"
+      "default": "/assets/images/logo.svg",
+      "light": "/assets/images/logo-light.svg",
+      "alt": "Qitchen Restaurant Logo"
     },
-    "barLinks": [
-      {
-        "name": "About",
-        "href": "#about"
-      },
-      {
-        "name": "Rooms",
-        "href": "#floor"
-      },
-      {
-        "name": "Amenities",
-        "href": "#why-us"
-      },
-      {
-        "name": "Destinations",
-        "href": "#cities"
-      }
-    ],
-    "cta": {
-      "label": "Book Now",
-      "href": "#footer"
-    },
-    "menuLinks": [
+    "links": [
       {
         "name": "Home",
-        "number": "01",
-        "href": "#hero"
+        "href": "/"
+      },
+      {
+        "name": "Menu",
+        "href": "/menu"
       },
       {
         "name": "About",
-        "number": "02",
-        "href": "#about"
-      },
-      {
-        "name": "Featured",
-        "number": "03",
-        "href": "#featured"
-      },
-      {
-        "name": "Rooms & Suites",
-        "number": "04",
-        "href": "#floor"
-      },
-      {
-        "name": "Why Choose Us",
-        "number": "05",
-        "href": "#why-us"
-      },
-      {
-        "name": "Destinations",
-        "number": "06",
-        "href": "#cities"
-      },
-      {
-        "name": "Testimonials",
-        "number": "07",
-        "href": "#testimonials"
+        "href": "/about"
       },
       {
         "name": "Contact",
-        "number": "08",
-        "href": "#footer"
+        "href": "/contact"
       }
     ],
-    "featured": {
-      "studioName": "Grandeur Hotel",
-      "image": "https://placehold.co/600x800/1a1a1a/c9a962?text=Featured",
-      "copyright": "2026 All rights reserved"
+    "cta": {
+      "label": "Book a Table",
+      "href": "/reservation"
     },
     "contact": {
-      "email": "reservations@grandeur.com",
-      "phone": "+1 (555) 789-0123"
+      "phone": "+1 (555) 123-4567",
+      "email": "reservations@qitchen.com"
     },
     "socialLinks": [
       {
@@ -117,442 +71,418 @@
       {
         "name": "Facebook",
         "href": "https://facebook.com"
-      },
-      {
-        "name": "Twitter",
-        "href": "https://twitter.com"
       }
     ]
   },
   "hero": {
-    "brandName": "Grandeur",
-    "description": "We help discerning travelers discover extraordinary stays with clarity—featuring curated accommodations and seamless luxury service.",
-    "image": "/assets/images/hero.avif",
-    "cta": {
-      "label": "View rooms",
-      "href": "#floor"
-    },
-    "conciergeCard": {
-      "avatar": "/assets/images/avatar/1.jpg",
-      "smallText": "Let's help you",
-      "mainText": "Talk to our concierge",
-      "href": "#footer"
-    }
-  },
-  "about": {
-    "sectionLabel": "About us",
-    "headline": "Our mission leads you to unforgettable stays",
-    "description": "We support discerning travelers with exceptional hospitality that streamlines comfort, elevates experiences, and brings tranquility.",
-    "image": "/assets/images/about.png",
-    "features": [
-      {
-        "icon": "building",
-        "title": "Luxury Experience",
-        "description": "We curate every detail of your stay, from premium amenities to personalized services. Each moment is designed to exceed expectations."
-      },
-      {
-        "icon": "file-text",
-        "title": "Tailored Service",
-        "description": "We assess your preferences, anticipate your needs, and craft bespoke experiences. Every detail is refined to ensure perfection."
-      }
-    ],
-    "statsBar": {
-      "label": "At a glance",
-      "headline": "Providing excellence, every step forward",
-      "stats": [
-        {
-          "value": "250",
-          "suffix": "+",
-          "label": "Luxury rooms"
-        },
-        {
-          "value": "50",
-          "suffix": "k",
-          "label": "Guests hosted"
-        },
-        {
-          "value": "15",
-          "suffix": "+",
-          "label": "Years excellence"
-        },
-        {
-          "value": "98",
-          "suffix": "%",
-          "label": "Guest satisfaction"
-        }
-      ]
-    }
-  },
-  "featuredPlace": {
-    "headline": "Inside our spaces",
-    "subtitle": "Room overview with elegant design",
-    "places": [
-      {
-        "id": "bar",
-        "title": "The Grandeur Bar",
-        "description": "The bar is the social heart of the hotel—a sophisticated space designed for craft cocktails, fine spirits, and elegant evenings.",
-        "image": "/assets/images/rooms/bar.png",
-        "size": "200 m2",
-        "type": "Lounge",
-        "style": "Art Deco"
-      },
-      {
-        "id": "cabana",
-        "title": "Private Cabana",
-        "description": "The cabana offers exclusive poolside luxury—a secluded retreat crafted for relaxation, privacy, and personalized service.",
-        "image": "/assets/images/rooms/cabana.png",
-        "size": "50 m2",
-        "type": "Outdoor",
-        "style": "Tropical"
-      },
-      {
-        "id": "premium-deluxe",
-        "title": "Premium Deluxe Room",
-        "description": "The premium deluxe room is the epitome of comfort—a spacious retreat featuring designer furnishings, panoramic views, and bespoke amenities.",
-        "image": "/assets/images/rooms/premium.png",
-        "size": "65 m2",
-        "type": "Accommodation",
-        "style": "Contemporary"
-      },
-      {
-        "id": "spa",
-        "title": "Luxury Spa",
-        "description": "The spa is a sanctuary of wellness—a tranquil space meant for relaxation, rejuvenation, and inner peace.",
-        "image": "/assets/images/rooms/spa.png",
-        "size": "400 m2",
-        "type": "Wellness",
-        "style": "Zen"
-      },
-      {
-        "id": "lobby",
-        "title": "Grand Lobby",
-        "description": "The grand lobby is the heart of the hotel—a space designed for comfort, elegance, and lasting first impressions.",
-        "image": "/assets/images/rooms/lobby.png",
-        "size": "500 m2",
-        "type": "Reception",
-        "style": "Marble"
-      }
-    ]
-  },
-  "floor": {
-    "sectionLabel": "Floor planning",
-    "headline": "Explore every level with our detailed floor planning",
-    "rooms": [
-      {
-        "id": "bar",
-        "name": "The Grandeur Bar",
-        "description": "The bar is the social heart of the hotel—a sophisticated space designed for craft cocktails, fine spirits, and elegant evenings with live jazz performances.",
-        "image": "/assets/images/floor/bar.jpg",
-        "details": {
-          "rooms": "1",
-          "location": "Ground Floor, Grandeur Tower",
-          "designer": "Studio Luxe Interiors",
-          "available": "Premium Spirits, Craft Cocktails, Live Music, VIP Lounge",
-          "size": "200 sqm"
-        }
-      },
-      {
-        "id": "cabana",
-        "name": "Private Cabana",
-        "description": "The cabana offers exclusive poolside luxury—a secluded retreat crafted for relaxation, privacy, and personalized service with dedicated attendants.",
-        "image": "/assets/images/floor/cabana.jpg",
-        "details": {
-          "rooms": "1",
-          "location": "Poolside, Garden Level",
-          "designer": "Tropical Design Co.",
-          "available": "Daybed, Mini Bar, Personal Safe, Dedicated Attendant",
-          "size": "50 sqm"
-        }
-      },
-      {
-        "id": "deluxe",
-        "name": "Deluxe Room",
-        "description": "The deluxe room is the essence of comfort—a space designed for relaxation, style, and modern living with premium bedding and stunning city views.",
-        "image": "/assets/images/floor/premium.png",
-        "details": {
-          "rooms": "1",
-          "location": "Floors 5-10, Grandeur Tower",
-          "designer": "Studio Luxe Interiors",
-          "available": "King Bed, City View, Rain Shower, Mini Bar",
-          "size": "45 sqm"
-        }
-      },
-      {
-        "id": "spa",
-        "name": "Luxury Spa",
-        "description": "The spa is a sanctuary of wellness—a tranquil space featuring thermal pools, steam rooms, and world-class treatments for complete rejuvenation and inner peace.",
-        "image": "/assets/images/floor/spa.png",
-        "details": {
-          "rooms": "8",
-          "location": "Level B1, Wellness Wing",
-          "designer": "Zen Wellness Architecture",
-          "available": "Thermal Pools, Steam Room, Treatment Suites, Relaxation Lounge",
-          "size": "400 sqm"
-        }
-      }
-    ],
+    "headline": "CULINARY ARTISTRY",
+    "subheadline": "REDEFINED",
+    "description": "Experience the perfect harmony of tradition and innovation. Our chefs craft each dish with passion, precision, and the finest seasonal ingredients.",
+    "image": "https://placehold.co/1920x1080/0a0a0a/d4af37?text=Hero+Image",
     "cta": {
       "primary": {
-        "label": "Book A Visit",
-        "href": "#footer"
+        "label": "View Menu",
+        "href": "/menu"
       },
       "secondary": {
-        "label": "Call Us Now",
-        "href": "tel:+15557890123"
+        "label": "Reserve a Table",
+        "href": "/reservation"
       }
     }
   },
-  "whyUs": {
-    "sectionLabel": "Why us",
-    "headline": "Luxury hospitality experts",
-    "featuredCard": {
-      "label": "Award-winning excellence",
-      "headline": "50k+ guests choose our trusted luxury hotels",
-      "description": "Choosing us matters — experience and personalized service shape every memorable stay. We help guests create unforgettable moments with confidence.",
-      "image": "/assets/images/front.png"
+  "navigationLinks": {
+    "items": [
+      {
+        "name": "Menu",
+        "href": "/menu",
+        "description": "Explore our seasonal offerings"
+      },
+      {
+        "name": "Reservation",
+        "href": "/reservation",
+        "description": "Book your dining experience"
+      },
+      {
+        "name": "Our Restaurant",
+        "href": "/about",
+        "description": "Discover our story"
+      }
+    ]
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "headline": "SUSHI ARTISTRY REDEFINED",
+    "tagline": "Where culinary craftsmanship meets modern elegance",
+    "description": "Where culinary craftsmanship meets modern elegance. Indulge in the finest sushi, expertly curated to elevate your dining experience.",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded in 2015, Qitchen began as a dream to bring authentic fine dining to the heart of the city. Our executive chef, trained in the world's finest kitchens, combines classical techniques with innovative presentations to create unforgettable culinary experiences. Every dish tells a story of dedication, creativity, and respect for ingredients."
     },
-    "stats": [
+    "image": "https://placehold.co/800x600/0a0a0a/d4af37?text=About+Image",
+    "awards": [
       {
-        "value": "98%",
-        "label": "Satisfaction rate",
-        "icon": "refresh",
-        "description": "Guests consistently rate their experience as exceptional across all our properties."
+        "id": "tripadvisor",
+        "source": "Trip Advisor",
+        "award": "Best Fine Dining",
+        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=TA"
       },
       {
-        "value": "4 in 5",
-        "label": "Return guests",
-        "icon": "building",
-        "description": "More than 80% of our guests return for another stay within two years."
+        "id": "michelin",
+        "source": "Michelin Guide",
+        "award": "Quality Food",
+        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=M"
       },
       {
-        "value": "50+",
-        "label": "Awards won",
-        "icon": "award",
-        "description": "Recognized globally by leading hospitality and travel publications."
-      },
-      {
-        "value": "95%",
-        "label": "Recommend us",
-        "icon": "users",
-        "description": "Most guests recommend our hotels after experiencing our signature service."
-      }
-    ]
-  },
-  "cities": {
-    "sectionLabel": "Locations",
-    "headline": "Featured cities",
-    "description": "Experience the Grandeur difference across our collection of prestigious properties in the world's most coveted destinations.",
-    "locations": [
-      {
-        "id": "dubai",
-        "city": "Dubai",
-        "country": "United Arab Emirates",
-        "image": "/assets/images/cities/dubai.jpg",
-        "description": "Rising majestically on the Palm, offering unrivaled views of the Arabian Gulf.",
-        "rooms": 320,
-        "rating": 4.9
-      },
-      {
-        "id": "paris",
-        "city": "Paris",
-        "country": "France",
-        "image": "/assets/images/cities/paris.jpg",
-        "description": "A Haussmanian gem steps from the Champs-Elysees, embodying French elegance.",
-        "rooms": 180,
-        "rating": 4.8
-      },
-      {
-        "id": "new-york",
-        "city": "New York",
-        "country": "United States",
-        "image": "/assets/images/cities/ny.jpg",
-        "description": "An iconic Manhattan landmark overlooking Central Park's lush landscapes.",
-        "rooms": 250,
-        "rating": 4.9
-      },
-      {
-        "id": "tokyo",
-        "city": "Tokyo",
-        "country": "Japan",
-        "image": "/assets/images/cities/tokyo.jpg",
-        "description": "Where traditional Japanese hospitality meets contemporary luxury.",
-        "rooms": 200,
-        "rating": 4.9
-      },
-      {
-        "id": "london",
-        "city": "London",
-        "country": "United Kingdom",
-        "image": "https://placehold.co/600x800/1a1a1a/c9a962?text=London",
-        "description": "A regal residence in Mayfair, steeped in British heritage and sophistication.",
-        "rooms": 220,
-        "rating": 4.8
-      }
-    ]
-  },
-  "testimonials": {
-    "sectionLabel": "Testimonials",
-    "headline": "What our guests say",
-    "items": [
-      {
-        "id": "testimonial-1",
-        "name": "Maria Thompson",
-        "role": "Frequent Guest",
-        "quote": "Grandeur made our anniversary celebration incredibly special. Their attention to detail, responsiveness, and personalized service helped us create memories that will last forever.",
-        "avatar": "/assets/images/avatar/1.jpg"
-      },
-      {
-        "id": "testimonial-2",
-        "name": "Brian Ruiz",
-        "role": "First-time Guest",
-        "quote": "We felt supported through every step. Clear communication, quick responses, and genuine care made our entire stay smooth and stress-free.",
-        "avatar": "/assets/images/avatar/2.jpg"
-      },
-      {
-        "id": "testimonial-3",
-        "name": "Sarah Mitchell",
-        "role": "Business Traveler",
-        "quote": "The business facilities are exceptional. From the meeting rooms to the high-speed WiFi, everything was perfectly suited for productive work trips.",
-        "avatar": "/assets/images/avatar/3.jpg"
-      },
-      {
-        "id": "testimonial-4",
-        "name": "David Chen",
-        "role": "Family Vacation",
-        "quote": "Traveling with kids can be challenging, but Grandeur made it effortless. The staff went above and beyond to ensure our whole family felt welcome.",
-        "avatar": "/assets/images/avatar/4.jpg"
-      }
-    ]
-  },
-  "faq": {
-    "sectionLabel": "FAQ",
-    "headline": "Frequent questions",
-    "items": [
-      {
-        "id": "faq-1",
-        "question": "How does the booking process work?",
-        "answer": "We begin with understanding your preferences, travel dates, and room requirements. Our team then presents tailored options, arranges viewings if needed, and guides you through booking and payment. Every step is supported with clarity and transparency to ensure a smooth experience from start to finish."
-      },
-      {
-        "id": "faq-2",
-        "question": "Do you help with airport transfers?",
-        "answer": "Yes, we offer complimentary luxury airport transfers for all suite guests. Standard room guests can arrange transfers for a fee. Our fleet includes Mercedes S-Class and Rolls-Royce vehicles for your comfort."
-      },
-      {
-        "id": "faq-3",
-        "question": "Can you coordinate special occasions and events?",
-        "answer": "Absolutely. We arrange personalized celebrations, romantic dinners, and special events to ensure your occasion exceeds expectations. Our dedicated events team handles every detail before you arrive."
-      },
-      {
-        "id": "faq-4",
-        "question": "Do you assist with dining reservations?",
-        "answer": "Yes, our concierge team can arrange reservations at our five signature restaurants or recommend and book external dining experiences. We accommodate all dietary requirements with advance notice."
-      },
-      {
-        "id": "faq-5",
-        "question": "Are virtual tours available for international guests?",
-        "answer": "Yes, we offer immersive virtual tours of our rooms, suites, and amenities for guests who cannot visit in person before booking. Contact our team to schedule a personalized video walkthrough."
+        "id": "startdining",
+        "source": "Star Dining",
+        "award": "Cool Vibe",
+        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=SD"
       }
     ],
-    "contactCard": {
-      "image": "/assets/images/faq.jpg",
-      "text": "Have more questions? Our team is happy to help.",
-      "cta": {
-        "label": "Get in touch",
-        "href": "#footer"
+    "features": [
+      {
+        "icon": "utensils",
+        "title": "Culinary Excellence",
+        "description": "Our chefs create masterpieces using the freshest seasonal ingredients sourced from local and international purveyors."
+      },
+      {
+        "icon": "wine",
+        "title": "Curated Pairings",
+        "description": "Our sommelier crafts perfect wine pairings to complement each dish and enhance your dining experience."
       }
+    ],
+    "stats": [
+      {
+        "value": "15",
+        "suffix": "+",
+        "label": "Years of Excellence"
+      },
+      {
+        "value": "50",
+        "suffix": "k+",
+        "label": "Happy Guests"
+      },
+      {
+        "value": "3",
+        "suffix": "",
+        "label": "Michelin Stars"
+      },
+      {
+        "value": "98",
+        "suffix": "%",
+        "label": "Guest Satisfaction"
+      }
+    ]
+  },
+  "menu": {
+    "pageTitle": "M E N U",
+    "description": "Each dish is crafted with passion and precision, using only the finest ingredients.",
+    "categories": [
+      {
+        "id": "starters",
+        "name": "Starters",
+        "description": "Begin your culinary journey"
+      },
+      {
+        "id": "mains",
+        "name": "Main Courses",
+        "description": "Signature dishes"
+      },
+      {
+        "id": "desserts",
+        "name": "Desserts",
+        "description": "Sweet finales"
+      },
+      {
+        "id": "drinks",
+        "name": "Drinks",
+        "description": "Curated beverages"
+      }
+    ],
+    "items": [
+      {
+        "id": "starter-1",
+        "category": "starters",
+        "name": "Tuna Tartare",
+        "description": "Fresh ahi tuna with avocado mousse, crispy shallots, and sesame-soy dressing",
+        "price": "$24",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Tuna+Tartare"
+      },
+      {
+        "id": "starter-2",
+        "category": "starters",
+        "name": "Foie Gras Terrine",
+        "description": "Silky foie gras with brioche toast, fig compote, and port reduction",
+        "price": "$32",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Foie+Gras"
+      },
+      {
+        "id": "starter-3",
+        "category": "starters",
+        "name": "Burrata Caprese",
+        "description": "Creamy burrata with heirloom tomatoes, basil oil, and aged balsamic",
+        "price": "$22",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Burrata"
+      },
+      {
+        "id": "starter-4",
+        "category": "starters",
+        "name": "Lobster Bisque",
+        "description": "Rich and velvety with cognac cream and micro herbs",
+        "price": "$28",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Bisque"
+      },
+      {
+        "id": "main-1",
+        "category": "mains",
+        "name": "Wagyu Ribeye",
+        "description": "A5 Japanese wagyu with truffle pomme puree and red wine jus",
+        "price": "$125",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Wagyu"
+      },
+      {
+        "id": "main-2",
+        "category": "mains",
+        "name": "Pan-Seared Duck",
+        "description": "Duck breast with cherry gastrique, roasted root vegetables",
+        "price": "$48",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Duck"
+      },
+      {
+        "id": "main-3",
+        "category": "mains",
+        "name": "Chilean Sea Bass",
+        "description": "Miso-glazed with bok choy and ginger-scallion sauce",
+        "price": "$56",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Sea+Bass"
+      },
+      {
+        "id": "main-4",
+        "category": "mains",
+        "name": "Lamb Rack",
+        "description": "Herb-crusted with mint pesto and spring vegetables",
+        "price": "$52",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Lamb"
+      },
+      {
+        "id": "dessert-1",
+        "category": "desserts",
+        "name": "Chocolate Soufflé",
+        "description": "Dark chocolate with vanilla bean ice cream and gold leaf",
+        "price": "$18",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Souffle"
+      },
+      {
+        "id": "dessert-2",
+        "category": "desserts",
+        "name": "Crème Brûlée",
+        "description": "Classic vanilla custard with caramelized sugar crust",
+        "price": "$16",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Brulee"
+      },
+      {
+        "id": "dessert-3",
+        "category": "desserts",
+        "name": "Tiramisu",
+        "description": "Espresso-soaked ladyfingers with mascarpone cream",
+        "price": "$16",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Tiramisu"
+      },
+      {
+        "id": "drink-1",
+        "category": "drinks",
+        "name": "Signature Martini",
+        "description": "House-infused vodka with dry vermouth and olive",
+        "price": "$18",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Martini"
+      },
+      {
+        "id": "drink-2",
+        "category": "drinks",
+        "name": "Old Fashioned",
+        "description": "Bourbon, orange bitters, and demerara sugar",
+        "price": "$16",
+        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Old+Fashioned"
+      }
+    ]
+  },
+  "reservation": {
+    "pageTitle": "BOOK A TABLE",
+    "headline": "Reserve Your Experience",
+    "description": "Secure your spot at Qitchen, where exceptional cuisine and a remarkable dining experience await.",
+    "image": "https://placehold.co/800x600/0a0a0a/d4af37?text=Reservation",
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full Name",
+          "type": "text",
+          "placeholder": "John Doe",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "placeholder": "john@example.com",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "placeholder": "+1 (555) 123-4567",
+          "required": true
+        },
+        {
+          "name": "guests",
+          "label": "Number of Guests",
+          "type": "select",
+          "options": ["1 Guest", "2 Guests", "3 Guests", "4 Guests", "5 Guests", "6+ Guests"],
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "Preferred Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "time",
+          "label": "Preferred Time",
+          "type": "time",
+          "required": true
+        },
+        {
+          "name": "occasion",
+          "label": "Special Occasion",
+          "type": "select",
+          "options": ["None", "Birthday", "Anniversary", "Business Dinner", "Date Night", "Other"],
+          "required": false
+        },
+        {
+          "name": "requests",
+          "label": "Special Requests",
+          "type": "textarea",
+          "placeholder": "Dietary restrictions, seating preferences, etc.",
+          "required": false
+        }
+      ],
+      "submitButton": {
+        "label": "Request Reservation"
+      }
+    },
+    "info": {
+      "hours": [
+        { "day": "Monday - Thursday", "time": "5:00 PM - 10:00 PM" },
+        { "day": "Friday - Saturday", "time": "5:00 PM - 11:00 PM" },
+        { "day": "Sunday", "time": "5:00 PM - 9:00 PM" }
+      ],
+      "note": "For parties of 8 or more, please call us directly."
+    }
+  },
+  "contact": {
+    "pageTitle": "CONTACT",
+    "headline": "Get in Touch",
+    "description": "We'd love to hear from you. Reach out for reservations, private events, or any inquiries.",
+    "info": {
+      "address": {
+        "label": "Address",
+        "value": "123 Gourmet Street, Culinary District, New York, NY 10001"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+1 (555) 123-4567"
+      },
+      "email": {
+        "label": "Email",
+        "value": "reservations@qitchen.com"
+      },
+      "hours": {
+        "label": "Hours",
+        "value": "Mon-Sun: 5:00 PM - 11:00 PM"
+      }
+    },
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text",
+          "placeholder": "John Doe",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "placeholder": "john@example.com",
+          "required": true
+        },
+        {
+          "name": "subject",
+          "label": "Subject",
+          "type": "text",
+          "placeholder": "How can we help?",
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "type": "textarea",
+          "placeholder": "Your message...",
+          "required": true
+        }
+      ],
+      "submitButton": {
+        "label": "Send Message"
+      }
+    },
+    "map": {
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzI2LjgiTiA3NMKwMDAnMDguMSJX!5e0!3m2!1sen!2sus!4v1234567890"
     }
   },
   "footer": {
-    "cta": {
-      "avatar": "https://placehold.co/100x100/c9a962/1a1a1a?text=GH",
-      "headline": "Let's plan your perfect stay",
-      "subtitle": "Ready to experience luxury? Our concierge team is here to help",
-      "buttonLabel": "Get in touch",
-      "buttonHref": "mailto:reservations@grandeur.com",
-      "backgroundImage": "/assets/images/footer.jpg"
-    },
     "brand": {
-      "name": "Grandeur"
+      "name": "Qitchen",
+      "tagline": "Fine Dining Excellence"
     },
-    "navMenu": {
-      "title": "Nav menu",
-      "links": [
-        {
-          "name": "Home",
-          "href": "#hero"
-        },
-        {
-          "name": "Rooms",
-          "href": "#floor"
-        },
-        {
-          "name": "Amenities",
-          "href": "#why-us"
-        },
-        {
-          "name": "Destinations",
-          "href": "#cities"
-        },
-        {
-          "name": "Testimonials",
-          "href": "#testimonials"
-        },
-        {
-          "name": "Contact",
-          "href": "#footer"
-        }
-      ]
-    },
-    "pages": {
-      "title": "Pages",
-      "links": [
-        {
-          "name": "About us",
-          "href": "#about"
-        },
-        {
-          "name": "FAQ",
-          "href": "#faq"
-        },
-        {
-          "name": "Privacy Policy",
-          "href": "/privacy"
-        },
-        {
-          "name": "Terms",
-          "href": "/terms"
-        }
-      ]
+    "description": "Where culinary craftsmanship meets modern elegance.",
+    "links": {
+      "quickLinks": {
+        "title": "Quick Links",
+        "items": [
+          { "name": "Home", "href": "/" },
+          { "name": "Menu", "href": "/menu" },
+          { "name": "About", "href": "/about" },
+          { "name": "Contact", "href": "/contact" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "items": [
+          { "name": "Privacy Policy", "href": "/privacy" },
+          { "name": "Terms of Service", "href": "/terms" }
+        ]
+      }
     },
     "contact": {
-      "title": "Contact",
-      "phone": "+1 (555) 789-0123",
-      "email": "reservations@grandeur.com",
-      "address": "123 Luxury Avenue, Manhattan, New York"
-    },
-    "newsletter": {
-      "description": "Subscribe to our newsletter to get exclusive offers, travel inspiration & more",
-      "placeholder": "Your email address",
-      "buttonText": "Subscribe"
+      "address": "123 Gourmet Street, New York, NY 10001",
+      "phone": "+1 (555) 123-4567",
+      "email": "reservations@qitchen.com"
     },
     "socialLinks": [
-      {
-        "name": "Twitter",
-        "href": "https://twitter.com",
-        "icon": "twitter"
-      },
-      {
-        "name": "Facebook",
-        "href": "https://facebook.com",
-        "icon": "facebook"
-      },
-      {
-        "name": "Instagram",
-        "href": "https://instagram.com",
-        "icon": "instagram"
-      }
+      { "name": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
+      { "name": "Facebook", "href": "https://facebook.com", "icon": "facebook" },
+      { "name": "Twitter", "href": "https://twitter.com", "icon": "twitter" }
     ],
-    "copyright": "2026 Grandeur Hotels & Resorts. All rights reserved."
+    "newsletter": {
+      "headline": "Stay Updated",
+      "description": "Subscribe for exclusive offers and culinary updates",
+      "placeholder": "Enter your email",
+      "buttonText": "Subscribe"
+    },
+    "copyright": "2026 Qitchen. All rights reserved.",
+    "credits": "Designed with passion for culinary excellence"
   }
 }

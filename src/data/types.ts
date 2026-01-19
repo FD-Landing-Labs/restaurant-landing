@@ -1,9 +1,8 @@
 // Site Configuration Types
 export interface Logo {
-  src: string;
+  default: string;
+  light?: string;
   alt: string;
-  width?: number;
-  height?: number;
 }
 
 export interface SEO {
@@ -18,17 +17,15 @@ export interface Theme {
   secondaryColor: string;
   backgroundColor: string;
   accentColor: string;
+  foregroundColor?: string;
+  mutedColor?: string;
 }
 
 export interface SiteConfig {
   name: string;
   tagline: string;
   description: string;
-  logo: {
-    default: string;
-    white: string;
-    alt: string;
-  };
+  logo: Logo;
   seo: SEO;
   theme: Theme;
 }
@@ -39,131 +36,167 @@ export interface NavLink {
   href: string;
 }
 
+export interface CTAButton {
+  label: string;
+  href: string;
+}
+
+export interface SocialLink {
+  name: string;
+  href: string;
+  icon?: string;
+}
+
 export interface NavbarConfig {
+  brandName: string;
   logo: Logo;
   links: NavLink[];
+  cta: CTAButton;
+  contact?: {
+    phone: string;
+    email: string;
+  };
+  socialLinks?: SocialLink[];
 }
 
-// Hero Carousel Types
-export interface Slide {
-  id: string;
-  title: string;
-  subtitle: string;
+// Hero Types
+export interface HeroConfig {
+  headline: string;
+  subheadline?: string;
   description: string;
   image: string;
-  backgroundColor: string;
-  titleColor: string;
-  subtitleColor: string;
+  cta: {
+    primary: CTAButton;
+    secondary?: CTAButton;
+  };
 }
 
-export interface HeroCarouselConfig {
-  autoplayInterval: number;
-  slides: Slide[];
+// Navigation Links Section (Homepage)
+export interface NavigationLinkItem {
+  name: string;
+  href: string;
+  description?: string;
+}
+
+export interface NavigationLinksConfig {
+  items: NavigationLinkItem[];
 }
 
 // About Types
-export interface AboutStyle {
-  brandColor: string;
-  textColor: string;
-  backgroundColor: string;
+export interface Award {
+  id: string;
+  source: string;
+  award: string;
+  icon: string;
+}
+
+export interface Feature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface Stat {
+  value: string;
+  suffix: string;
+  label: string;
 }
 
 export interface AboutConfig {
-  brandName: string;
-  brandNameSuffix: string;
+  sectionLabel: string;
+  headline: string;
+  tagline: string;
   description: string;
-  style: AboutStyle;
+  story?: {
+    title: string;
+    content: string;
+  };
+  image: string;
+  awards: Award[];
+  features: Feature[];
+  stats: Stat[];
 }
 
-// Products Types
-export interface Product {
+// Menu Types
+export interface MenuCategory {
   id: string;
   name: string;
+  description?: string;
+}
+
+export interface MenuItem {
+  id: string;
+  category: string;
+  name: string;
   description: string;
+  price: string;
   image: string;
 }
 
-export interface ProductsConfig {
-  sectionTitle: string;
-  items: Product[];
+export interface MenuConfig {
+  pageTitle: string;
+  description: string;
+  categories: MenuCategory[];
+  items: MenuItem[];
 }
 
-// Certificates Types
-export interface Certificate {
-  id: string;
+// Reservation Types
+export interface FormField {
   name: string;
+  label: string;
+  type: "text" | "email" | "tel" | "date" | "time" | "select" | "textarea";
+  placeholder?: string;
+  options?: string[];
+  required: boolean;
+}
+
+export interface ReservationHours {
+  day: string;
+  time: string;
+}
+
+export interface ReservationConfig {
+  pageTitle: string;
+  headline: string;
+  description: string;
   image: string;
+  form: {
+    fields: FormField[];
+    submitButton: {
+      label: string;
+    };
+  };
+  info: {
+    hours: ReservationHours[];
+    note: string;
+  };
 }
 
-export interface CenterLogo {
-  src: string;
-  alt: string;
-  backgroundColor: string;
+// Contact Types
+export interface ContactInfo {
+  label: string;
+  value: string;
 }
 
-export interface CertificatesConfig {
-  sectionTitle: string;
-  description: string;
-  centerLogo: CenterLogo;
-  leftCertificates: Certificate[];
-  rightCertificates: Certificate[];
-}
-
-// Memberships Types
-export interface Membership {
-  id: string;
-  name: string;
-  image?: string;
-  gridClass?: string;
-}
-
-export interface MembershipsConfig {
-  sectionTitle: string;
-  items: Membership[];
-}
-
-// Testimonials Types
-export interface TextTestimonial {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  quote: string;
-  avatar?: string;
-}
-
-export interface VideoTestimonial {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  videoSrc: string;
-  posterImage: string;
-}
-
-export interface TestimonialsDescription {
-  highlight: string;
-  text: string;
-}
-
-export interface TestimonialsConfig {
-  headline: string;
-  description: TestimonialsDescription;
-  textTestimonials: TextTestimonial[];
-  videoTestimonial: VideoTestimonial;
-}
-
-// FAQ Types
-export interface FAQItem {
-  id: string;
-  question: string;
-  answer: string;
-}
-
-export interface FAQConfig {
+export interface ContactConfig {
+  pageTitle: string;
   headline: string;
   description: string;
-  items: FAQItem[];
+  info: {
+    address: ContactInfo;
+    phone: ContactInfo;
+    email: ContactInfo;
+    hours: ContactInfo;
+  };
+  form: {
+    fields: FormField[];
+    submitButton: {
+      label: string;
+    };
+  };
+  map?: {
+    embedUrl: string;
+  };
 }
 
 // Footer Types
@@ -172,50 +205,46 @@ export interface FooterLink {
   href: string;
 }
 
-export interface CTAButton {
-  label: string;
-  href: string;
-  variant: "primary" | "outline";
-}
-
-export interface ContactInfo {
-  address: string;
-  phones: string[];
-  email: string;
-}
-
-export interface SocialLink {
-  name: string;
-  href: string;
-  icon: "facebook" | "instagram" | "linkedin" | "twitter";
-}
-
 export interface FooterLinkGroup {
-  category: string;
-  links: FooterLink[];
+  title: string;
+  items: FooterLink[];
 }
 
 export interface FooterConfig {
-  topNavLinks: FooterLink[];
-  badge: string;
-  headline: string;
-  logo: CenterLogo;
-  ctaButtons: CTAButton[];
-  linkGroups: FooterLinkGroup[];
-  contact: ContactInfo;
+  brand: {
+    name: string;
+    tagline: string;
+  };
+  description: string;
+  links: {
+    quickLinks: FooterLinkGroup;
+    legal: FooterLinkGroup;
+  };
+  contact: {
+    address: string;
+    phone: string;
+    email: string;
+  };
   socialLinks: SocialLink[];
+  newsletter?: {
+    headline: string;
+    description: string;
+    placeholder: string;
+    buttonText: string;
+  };
+  copyright: string;
+  credits?: string;
 }
 
 // Main Placeholder Data Type
 export interface PlaceholderData {
   site: SiteConfig;
   navbar: NavbarConfig;
-  heroCarousel: HeroCarouselConfig;
+  hero: HeroConfig;
+  navigationLinks: NavigationLinksConfig;
   about: AboutConfig;
-  products: ProductsConfig;
-  certificates: CertificatesConfig;
-  memberships: MembershipsConfig;
-  testimonials: TestimonialsConfig;
-  faq: FAQConfig;
+  menu: MenuConfig;
+  reservation: ReservationConfig;
+  contact: ContactConfig;
   footer: FooterConfig;
 }
