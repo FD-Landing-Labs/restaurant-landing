@@ -63,23 +63,16 @@ export interface NavbarConfig {
 export interface HeroConfig {
   headline: string;
   subheadline?: string;
-  description: string;
   image: string;
-  cta: {
-    primary: CTAButton;
-    secondary?: CTAButton;
-  };
+  socialLinks?: SocialLink[];
 }
 
-// Navigation Links Section (Homepage)
-export interface NavigationLinkItem {
-  name: string;
+// Navigation Cards (Homepage)
+export interface NavigationCard {
+  id: string;
+  label: string;
   href: string;
-  description?: string;
-}
-
-export interface NavigationLinksConfig {
-  items: NavigationLinkItem[];
+  image: string;
 }
 
 // About Types
@@ -87,47 +80,62 @@ export interface Award {
   id: string;
   source: string;
   award: string;
-  icon: string;
+  stars: number;
 }
 
-export interface Feature {
-  icon: string;
-  title: string;
-  description: string;
+export interface TestimonialReview {
+  id: string;
+  quote: string;
+  author: string;
+  role: string;
 }
 
-export interface Stat {
-  value: string;
-  suffix: string;
-  label: string;
+export interface TestimonialsConfig {
+  stats: {
+    satisfactionRate: string;
+    satisfactionLabel: string;
+    statImage: string;
+  };
+  customerCount: {
+    count: string;
+    label: string;
+    avatars: string[];
+  };
+  reviews: TestimonialReview[];
 }
 
 export interface AboutConfig {
-  sectionLabel: string;
+  heroTitle: string;
+  heroImage: string;
   headline: string;
-  tagline: string;
   description: string;
-  story?: {
+  featuredImage: string;
+  awards: Award[];
+  chefImages: string[];
+  story: {
     title: string;
     content: string;
   };
-  image: string;
-  awards: Award[];
-  features: Feature[];
-  stats: Stat[];
+  testimonials: TestimonialsConfig;
+  footer: {
+    copyright: string;
+    links: { name: string; href: string }[];
+  };
 }
 
 // Menu Types
 export interface MenuCategory {
   id: string;
   name: string;
-  description?: string;
+  emoji: string;
+  timeRange: string;
 }
 
 export interface MenuItem {
   id: string;
   category: string;
   name: string;
+  emoji: string;
   description: string;
   price: string;
   image: string;
@@ -135,7 +143,7 @@ export interface MenuItem {
 
 export interface MenuConfig {
   pageTitle: string;
-  description: string;
+  heroImage: string;
   categories: MenuCategory[];
   items: MenuItem[];
 }
@@ -150,52 +158,69 @@ export interface FormField {
   required: boolean;
 }
 
-export interface ReservationHours {
-  day: string;
-  time: string;
-}
-
 export interface ReservationConfig {
-  pageTitle: string;
-  headline: string;
-  description: string;
-  image: string;
+  heroTitle: string;
+  heroImage: string;
+  formTitle: string;
+  formDescription: string;
   form: {
     fields: FormField[];
     submitButton: {
       label: string;
     };
   };
-  info: {
-    hours: ReservationHours[];
-    note: string;
+  footer: {
+    copyright: string;
+    links: { name: string; href: string }[];
   };
 }
 
 // Contact Types
-export interface ContactInfo {
-  label: string;
-  value: string;
+export interface OpeningHour {
+  day: string;
+  time: string;
 }
 
 export interface ContactConfig {
-  pageTitle: string;
-  headline: string;
-  description: string;
-  info: {
-    address: ContactInfo;
-    phone: ContactInfo;
-    email: ContactInfo;
-    hours: ContactInfo;
+  heroTitle: string;
+  heroImage: string;
+  opening: {
+    title: string;
+    hours: OpeningHour[];
   };
-  form: {
-    fields: FormField[];
-    submitButton: {
+  googleReview: {
+    title: string;
+    qrCode: string;
+    reviewUrl: string;
+  };
+  map: {
+    coordinates: string;
+    plusCode: string;
+    embedUrl: string;
+  };
+  info: {
+    title: string;
+    address: {
       label: string;
+      line1: string;
+      line2: string;
+    };
+    phone: {
+      label: string;
+      value: string;
+    };
+    email: {
+      label: string;
+      value: string;
+    };
+    social: {
+      label: string;
+      links: { name: string; href: string; icon: string }[];
     };
   };
-  map?: {
-    embedUrl: string;
+  footer: {
+    copyright: string;
+    links: { name: string; href: string }[];
   };
 }
 
@@ -241,7 +266,7 @@ export interface PlaceholderData {
   site: SiteConfig;
   navbar: NavbarConfig;
   hero: HeroConfig;
-  navigationLinks: NavigationLinksConfig;
+  navigationCards: NavigationCard[];
   about: AboutConfig;
   menu: MenuConfig;
   reservation: ReservationConfig;

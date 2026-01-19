@@ -1,8 +1,8 @@
 {
   "site": {
     "name": "Qitchen",
-    "tagline": "Fine Dining Experience",
-    "description": "Where culinary craftsmanship meets modern elegance. Indulge in the finest cuisine, expertly curated to elevate your dining experience.",
+    "tagline": "Modern Culinary Excellence",
+    "description": "Where culinary craftsmanship meets modern elegance. Experience exceptional flavors, seasonal ingredients, and impeccable service in an unforgettable atmosphere.",
     "logo": {
       "default": "/assets/images/logo.svg",
       "light": "/assets/images/logo-light.svg",
@@ -15,9 +15,9 @@
         "fine dining",
         "luxury restaurant",
         "gourmet cuisine",
-        "tasting menu",
+        "contemporary restaurant",
         "chef's table",
-        "michelin restaurant"
+        "upscale dining"
       ],
       "ogImage": "https://placehold.co/1200x630/0a0a0a/d4af37?text=Qitchen+Restaurant"
     },
@@ -75,371 +75,446 @@
     ]
   },
   "hero": {
-    "headline": "CULINARY ARTISTRY",
-    "subheadline": "REDEFINED",
-    "description": "Experience the perfect harmony of tradition and innovation. Our chefs craft each dish with passion, precision, and the finest seasonal ingredients.",
-    "image": "https://placehold.co/1920x1080/0a0a0a/d4af37?text=Hero+Image",
-    "cta": {
-      "primary": {
-        "label": "View Menu",
-        "href": "/menu"
-      },
-      "secondary": {
-        "label": "Reserve a Table",
-        "href": "/reservation"
-      }
-    }
-  },
-  "navigationLinks": {
-    "items": [
+    "headline": "CULINARY",
+    "subheadline": "EXCELLENCE",
+    "image": "https://placehold.co/1400x900/1a1a1a/f5f0e8?text=Sushi+Hero",
+    "socialLinks": [
       {
-        "name": "Menu",
-        "href": "/menu",
-        "description": "Explore our seasonal offerings"
+        "name": "Facebook",
+        "href": "https://facebook.com",
+        "icon": "facebook"
       },
       {
-        "name": "Reservation",
-        "href": "/reservation",
-        "description": "Book your dining experience"
+        "name": "Instagram",
+        "href": "https://instagram.com",
+        "icon": "instagram"
       },
       {
-        "name": "Our Restaurant",
-        "href": "/about",
-        "description": "Discover our story"
+        "name": "Twitter",
+        "href": "https://twitter.com",
+        "icon": "twitter"
       }
     ]
   },
-  "about": {
-    "sectionLabel": "About Us",
-    "headline": "SUSHI ARTISTRY REDEFINED",
-    "tagline": "Where culinary craftsmanship meets modern elegance",
-    "description": "Where culinary craftsmanship meets modern elegance. Indulge in the finest sushi, expertly curated to elevate your dining experience.",
-    "story": {
-      "title": "Our Story",
-      "content": "Founded in 2015, Qitchen began as a dream to bring authentic fine dining to the heart of the city. Our executive chef, trained in the world's finest kitchens, combines classical techniques with innovative presentations to create unforgettable culinary experiences. Every dish tells a story of dedication, creativity, and respect for ingredients."
+  "navigationCards": [
+    {
+      "id": "menu",
+      "label": "MENU",
+      "href": "/menu",
+      "image": "/assets/images/home/menu-2.jpg"
     },
-    "image": "https://placehold.co/800x600/0a0a0a/d4af37?text=About+Image",
+    {
+      "id": "reservation",
+      "label": "RESERVATION",
+      "href": "/reservation",
+      "image": "/assets/images/home/reservation.jpg"
+    },
+    {
+      "id": "restaurant",
+      "label": "OUR RESTAURANT",
+      "href": "/about",
+      "image": "/assets/images/home/kitchen.jpg"
+    }
+  ],
+  "about": {
+    "heroTitle": "ABOUT",
+    "heroImage": "/assets/images/about/hero.jpg",
+    "headline": "CULINARY ARTISTRY REDEFINED",
+    "description": "Where culinary craftsmanship meets modern elegance. Indulge in the finest cuisine, expertly prepared to elevate your dining experience.",
+    "featuredImage": "/assets/images/about/dining.jpg",
     "awards": [
       {
         "id": "tripadvisor",
-        "source": "Trip Advisor",
-        "award": "Best Fine Dining",
-        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=TA"
+        "source": "TRIP ADVISOR",
+        "award": "BEST DINING",
+        "stars": 5
       },
       {
         "id": "michelin",
-        "source": "Michelin Guide",
-        "award": "Quality Food",
-        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=M"
+        "source": "MICHELIN GUIDE",
+        "award": "QUALITY FOOD",
+        "stars": 5
       },
       {
         "id": "startdining",
-        "source": "Star Dining",
-        "award": "Cool Vibe",
-        "icon": "https://placehold.co/60x60/0a0a0a/d4af37?text=SD"
+        "source": "START DINING",
+        "award": "COOL VIBE",
+        "stars": 5
       }
     ],
-    "features": [
-      {
-        "icon": "utensils",
-        "title": "Culinary Excellence",
-        "description": "Our chefs create masterpieces using the freshest seasonal ingredients sourced from local and international purveyors."
-      },
-      {
-        "icon": "wine",
-        "title": "Curated Pairings",
-        "description": "Our sommelier crafts perfect wine pairings to complement each dish and enhance your dining experience."
-      }
+    "chefImages": [
+      "/assets/images/chefs/chef-1.png",
+      "/assets/images/chefs/chef-2.png",
+      "/assets/images/chefs/chef-3.png"
     ],
-    "stats": [
-      {
-        "value": "15",
-        "suffix": "+",
-        "label": "Years of Excellence"
+    "story": {
+      "title": "OUR STORY",
+      "content": "Founded with a passion for culinary excellence, Qitchen's journey began in the heart of Prague. Over the years, it evolved into a destination for food lovers, celebrated for its artful mastery and devotion to redefining modern gastronomy."
+    },
+    "testimonials": {
+      "stats": {
+        "satisfactionRate": "98%",
+        "satisfactionLabel": "Customer Satisfaction rate",
+        "statImage": "/assets/images/about/happy-customer.jpg"
       },
-      {
-        "value": "50",
-        "suffix": "k+",
-        "label": "Happy Guests"
+      "customerCount": {
+        "count": "+2K",
+        "label": "Happy Customer",
+        "avatars": [
+          "/assets/images/avatars/1.jpg",
+          "/assets/images/avatars/2.jpg",
+          "/assets/images/avatars/3.jpg",
+          "/assets/images/avatars/4.jpg"
+        ]
       },
-      {
-        "value": "3",
-        "suffix": "",
-        "label": "Michelin Stars"
-      },
-      {
-        "value": "98",
-        "suffix": "%",
-        "label": "Guest Satisfaction"
-      }
-    ]
+      "reviews": [
+        {
+          "id": "1",
+          "quote": "Every bite at Qitchen is a journey of refined flavors. The attention to detail in presentation and taste is exceptional. It's not just dining—it's an art form.",
+          "author": "Sarah Mitchell",
+          "role": "Food Critic"
+        },
+        {
+          "id": "2",
+          "quote": "The tasting menu here redefined my expectations. Chef's mastery of traditional techniques combined with modern creativity creates unforgettable moments.",
+          "author": "James Chen",
+          "role": "Culinary Enthusiast"
+        },
+        {
+          "id": "3",
+          "quote": "From the moment you walk in, you're transported to a world of culinary excellence. The ambiance perfectly complements the extraordinary cuisine.",
+          "author": "Emma Rodriguez",
+          "role": "Restaurant Reviewer"
+        }
+      ]
+    },
+    "footer": {
+      "copyright": "© QITCHEN",
+      "links": [
+        {
+          "name": "LICENSING",
+          "href": "/licensing"
+        }
+      ]
+    }
   },
   "menu": {
-    "pageTitle": "M E N U",
-    "description": "Each dish is crafted with passion and precision, using only the finest ingredients.",
+    "pageTitle": "MENU",
+    "heroImage": "/assets/images/menu/hero.jpg",
     "categories": [
       {
-        "id": "starters",
-        "name": "Starters",
-        "description": "Begin your culinary journey"
+        "id": "breakfast",
+        "name": "BREAKFAST",
+        "emoji": "🍳",
+        "timeRange": "7 AM - 11 AM"
       },
       {
-        "id": "mains",
-        "name": "Main Courses",
-        "description": "Signature dishes"
+        "id": "lunch",
+        "name": "LUNCH",
+        "emoji": "🍱",
+        "timeRange": "12 PM - 3 PM"
+      },
+      {
+        "id": "dinner",
+        "name": "DINNER",
+        "emoji": "🍽️",
+        "timeRange": "6 PM - 10 PM"
       },
       {
         "id": "desserts",
-        "name": "Desserts",
-        "description": "Sweet finales"
-      },
-      {
-        "id": "drinks",
-        "name": "Drinks",
-        "description": "Curated beverages"
+        "name": "DESSERTS",
+        "emoji": "🍰",
+        "timeRange": "All Day"
       }
     ],
     "items": [
       {
-        "id": "starter-1",
-        "category": "starters",
-        "name": "Tuna Tartare",
-        "description": "Fresh ahi tuna with avocado mousse, crispy shallots, and sesame-soy dressing",
-        "price": "$24",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Tuna+Tartare"
+        "id": "breakfast-1",
+        "category": "breakfast",
+        "name": "Fluffy Pancakes",
+        "emoji": "🥞",
+        "description": "Soft pancakes with maple syrup.",
+        "price": "$8.00",
+        "image": "/assets/images/menu/items/pan-cakes.png"
       },
       {
-        "id": "starter-2",
-        "category": "starters",
-        "name": "Foie Gras Terrine",
-        "description": "Silky foie gras with brioche toast, fig compote, and port reduction",
-        "price": "$32",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Foie+Gras"
+        "id": "breakfast-2",
+        "category": "breakfast",
+        "name": "Avocado Toast",
+        "emoji": "🥑",
+        "description": "Creamy avocado on artisan sourdough.",
+        "price": "$12.00",
+        "image": "/assets/images/menu/items/avacado-toast.png"
       },
       {
-        "id": "starter-3",
-        "category": "starters",
-        "name": "Burrata Caprese",
-        "description": "Creamy burrata with heirloom tomatoes, basil oil, and aged balsamic",
-        "price": "$22",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Burrata"
+        "id": "breakfast-3",
+        "category": "breakfast",
+        "name": "Classic Omelette",
+        "emoji": "🍳",
+        "description": "Farm-fresh eggs with herbs and cheese.",
+        "price": "$12.00",
+        "image": "/assets/images/menu/items/classic-omlette.png"
       },
       {
-        "id": "starter-4",
-        "category": "starters",
-        "name": "Lobster Bisque",
-        "description": "Rich and velvety with cognac cream and micro herbs",
-        "price": "$28",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Bisque"
+        "id": "breakfast-4",
+        "category": "breakfast",
+        "name": "Berry Parfait",
+        "emoji": "🍓",
+        "description": "Layered yogurt with fresh berries and granola.",
+        "price": "$12.00",
+        "image": "/assets/images/menu/items/berry-parfait.png"
       },
       {
-        "id": "main-1",
-        "category": "mains",
-        "name": "Wagyu Ribeye",
-        "description": "A5 Japanese wagyu with truffle pomme puree and red wine jus",
-        "price": "$125",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Wagyu"
+        "id": "lunch-1",
+        "category": "lunch",
+        "name": "Caesar Salad with Grilled Chicken",
+        "emoji": "🥗",
+        "description": "Romaine lettuce, chicken, and caesar dressing.",
+        "price": "$15.00",
+        "image": "/assets/images/menu/items/casesar-salad.png"
       },
       {
-        "id": "main-2",
-        "category": "mains",
-        "name": "Pan-Seared Duck",
-        "description": "Duck breast with cherry gastrique, roasted root vegetables",
-        "price": "$48",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Duck"
+        "id": "lunch-2",
+        "category": "lunch",
+        "name": "Wagyu Beef Burger",
+        "emoji": "🍔",
+        "description": "Premium wagyu patty with truffle aioli.",
+        "price": "$18.00",
+        "image": "/assets/images/menu/items/wagyu-burger.png"
       },
       {
-        "id": "main-3",
-        "category": "mains",
+        "id": "lunch-3",
+        "category": "lunch",
+        "name": "Grilled Salmon Bowl",
+        "emoji": "🐟",
+        "description": "Fresh salmon with quinoa and vegetables.",
+        "price": "$22.00",
+        "image": "/assets/images/menu/items/grilled-salmon.png"
+      },
+      {
+        "id": "lunch-4",
+        "category": "lunch",
+        "name": "Truffle Pasta",
+        "emoji": "🍝",
+        "description": "Fresh pasta with black truffle shavings.",
+        "price": "$24.00",
+        "image": "/assets/images/menu/items/truffle-pasta.png"
+      },
+      {
+        "id": "dinner-1",
+        "category": "dinner",
+        "name": "Wagyu Ribeye Steak",
+        "emoji": "🥩",
+        "description": "A5 Japanese wagyu with truffle butter.",
+        "price": "$125.00",
+        "image": "/assets/images/menu/items/wagyu-ribeye.png"
+      },
+      {
+        "id": "dinner-2",
+        "category": "dinner",
+        "name": "Lobster Thermidor",
+        "emoji": "🦞",
+        "description": "Classic French preparation with brandy cream.",
+        "price": "$85.00",
+        "image": "/assets/images/menu/items/lobstor-thermidor.png"
+      },
+      {
+        "id": "dinner-3",
+        "category": "dinner",
+        "name": "Duck Confit",
+        "emoji": "🦆",
+        "description": "Slow-cooked duck leg with cherry reduction.",
+        "price": "$48.00",
+        "image": "/assets/images/menu/items/duck-confit.png"
+      },
+      {
+        "id": "dinner-4",
+        "category": "dinner",
         "name": "Chilean Sea Bass",
-        "description": "Miso-glazed with bok choy and ginger-scallion sauce",
-        "price": "$56",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Sea+Bass"
-      },
-      {
-        "id": "main-4",
-        "category": "mains",
-        "name": "Lamb Rack",
-        "description": "Herb-crusted with mint pesto and spring vegetables",
-        "price": "$52",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Lamb"
+        "emoji": "🐠",
+        "description": "Miso-glazed with bok choy.",
+        "price": "$56.00",
+        "image": "/assets/images/menu/items/sea-bass.png"
       },
       {
         "id": "dessert-1",
         "category": "desserts",
         "name": "Chocolate Soufflé",
-        "description": "Dark chocolate with vanilla bean ice cream and gold leaf",
-        "price": "$18",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Souffle"
+        "emoji": "🍫",
+        "description": "Dark chocolate with vanilla ice cream.",
+        "price": "$18.00",
+        "image": "/assets/images/menu/items/choco-souffle.png"
       },
       {
         "id": "dessert-2",
         "category": "desserts",
         "name": "Crème Brûlée",
-        "description": "Classic vanilla custard with caramelized sugar crust",
-        "price": "$16",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Brulee"
+        "emoji": "🍮",
+        "description": "Classic vanilla custard with caramelized sugar.",
+        "price": "$16.00",
+        "image": "/assets/images/menu/items/creme-brulee.png"
       },
       {
         "id": "dessert-3",
         "category": "desserts",
         "name": "Tiramisu",
-        "description": "Espresso-soaked ladyfingers with mascarpone cream",
-        "price": "$16",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Tiramisu"
-      },
-      {
-        "id": "drink-1",
-        "category": "drinks",
-        "name": "Signature Martini",
-        "description": "House-infused vodka with dry vermouth and olive",
-        "price": "$18",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Martini"
-      },
-      {
-        "id": "drink-2",
-        "category": "drinks",
-        "name": "Old Fashioned",
-        "description": "Bourbon, orange bitters, and demerara sugar",
-        "price": "$16",
-        "image": "https://placehold.co/400x300/1a1a1a/d4af37?text=Old+Fashioned"
+        "emoji": "☕",
+        "description": "Espresso-soaked ladyfingers with mascarpone.",
+        "price": "$16.00",
+        "image": "/assets/images/menu/items/tiramisu.png"
       }
     ]
   },
   "reservation": {
-    "pageTitle": "BOOK A TABLE",
-    "headline": "Reserve Your Experience",
-    "description": "Secure your spot at Qitchen, where exceptional cuisine and a remarkable dining experience await.",
-    "image": "https://placehold.co/800x600/0a0a0a/d4af37?text=Reservation",
+    "heroTitle": "BOOK\nA TABLE",
+    "heroImage": "/assets/images/reservation/reservation.jpg",
+    "formTitle": "RESERVATION",
+    "formDescription": "Secure your spot at Qitchen, where exceptional cuisine and a remarkable dining experience await.",
     "form": {
       "fields": [
         {
           "name": "name",
-          "label": "Full Name",
+          "label": "NAME",
           "type": "text",
-          "placeholder": "John Doe",
+          "placeholder": "Jane Smith",
           "required": true
         },
         {
           "name": "email",
-          "label": "Email Address",
+          "label": "EMAIL",
           "type": "email",
-          "placeholder": "john@example.com",
+          "placeholder": "example@framer.com",
           "required": true
         },
         {
           "name": "phone",
-          "label": "Phone Number",
+          "label": "PHONE NUMBER",
           "type": "tel",
-          "placeholder": "+1 (555) 123-4567",
+          "placeholder": "+420 123 456 789",
           "required": true
         },
         {
-          "name": "guests",
-          "label": "Number of Guests",
-          "type": "select",
-          "options": ["1 Guest", "2 Guests", "3 Guests", "4 Guests", "5 Guests", "6+ Guests"],
+          "name": "people",
+          "label": "PEOPLE",
+          "type": "text",
+          "placeholder": "1-10",
           "required": true
         },
         {
           "name": "date",
-          "label": "Preferred Date",
+          "label": "DATE",
           "type": "date",
+          "placeholder": "mm/dd/yyyy",
           "required": true
         },
         {
           "name": "time",
-          "label": "Preferred Time",
+          "label": "TIME",
           "type": "time",
+          "placeholder": "--:-- --",
           "required": true
-        },
-        {
-          "name": "occasion",
-          "label": "Special Occasion",
-          "type": "select",
-          "options": ["None", "Birthday", "Anniversary", "Business Dinner", "Date Night", "Other"],
-          "required": false
-        },
-        {
-          "name": "requests",
-          "label": "Special Requests",
-          "type": "textarea",
-          "placeholder": "Dietary restrictions, seating preferences, etc.",
-          "required": false
         }
       ],
       "submitButton": {
-        "label": "Request Reservation"
+        "label": "FILL OUT THE FORM"
       }
     },
-    "info": {
-      "hours": [
-        { "day": "Monday - Thursday", "time": "5:00 PM - 10:00 PM" },
-        { "day": "Friday - Saturday", "time": "5:00 PM - 11:00 PM" },
-        { "day": "Sunday", "time": "5:00 PM - 9:00 PM" }
-      ],
-      "note": "For parties of 8 or more, please call us directly."
+    "footer": {
+      "copyright": "© QITCHEN",
+      "links": [
+        {
+          "name": "LICENSING",
+          "href": "/licensing"
+        }
+      ]
     }
   },
   "contact": {
-    "pageTitle": "CONTACT",
-    "headline": "Get in Touch",
-    "description": "We'd love to hear from you. Reach out for reservations, private events, or any inquiries.",
-    "info": {
-      "address": {
-        "label": "Address",
-        "value": "123 Gourmet Street, Culinary District, New York, NY 10001"
-      },
-      "phone": {
-        "label": "Phone",
-        "value": "+1 (555) 123-4567"
-      },
-      "email": {
-        "label": "Email",
-        "value": "reservations@qitchen.com"
-      },
-      "hours": {
-        "label": "Hours",
-        "value": "Mon-Sun: 5:00 PM - 11:00 PM"
-      }
-    },
-    "form": {
-      "fields": [
+    "heroTitle": "GET IN\nTOUCH",
+    "heroImage": "/assets/images/contact/hero.jpg",
+    "opening": {
+      "title": "OPENING",
+      "hours": [
         {
-          "name": "name",
-          "label": "Your Name",
-          "type": "text",
-          "placeholder": "John Doe",
-          "required": true
+          "day": "Mon",
+          "time": "16:00 - 22:30"
         },
         {
-          "name": "email",
-          "label": "Email Address",
-          "type": "email",
-          "placeholder": "john@example.com",
-          "required": true
+          "day": "Tue",
+          "time": "16:00 - 22:30"
         },
         {
-          "name": "subject",
-          "label": "Subject",
-          "type": "text",
-          "placeholder": "How can we help?",
-          "required": true
+          "day": "Wed",
+          "time": "16:00 - 22:30"
         },
         {
-          "name": "message",
-          "label": "Message",
-          "type": "textarea",
-          "placeholder": "Your message...",
-          "required": true
+          "day": "Thu",
+          "time": "16:00 - 22:30"
+        },
+        {
+          "day": "Fri",
+          "time": "16:00 - 22:30"
+        },
+        {
+          "day": "Sat & Sun",
+          "time": "16:00 - 22:30"
         }
-      ],
-      "submitButton": {
-        "label": "Send Message"
-      }
+      ]
+    },
+    "googleReview": {
+      "title": "Review us on Google",
+      "qrCode": "/assets/images/contact/qr.png",
+      "reviewUrl": "https://g.page/r/qitchen/review"
     },
     "map": {
-      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzI2LjgiTiA3NMKwMDAnMDguMSJX!5e0!3m2!1sen!2sus!4v1234567890"
+      "coordinates": "8°02'28.5\"N 79°50'24.3\"E",
+      "plusCode": "FocalDive, Sri Lanka",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d742.277632511104!2d79.83980928971425!3d8.041248912415092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afd17d7f756ee0d%3A0xbd35fc86c4077c8c!2sFocalDive!5e0!3m2!1sen!2slk!4v1768825187704!5m2!1sen!2slk"
+    },
+    "info": {
+      "title": "CONTACT",
+      "address": {
+        "label": "ADDRESS",
+        "line1": "Václavska 45",
+        "line2": "110 00 Praha"
+      },
+      "phone": {
+        "label": "PHONE",
+        "value": "+420 123 456 789"
+      },
+      "email": {
+        "label": "EMAIL",
+        "value": "info@qitchen.com"
+      },
+      "social": {
+        "label": "FOLLOW",
+        "links": [
+          {
+            "name": "Instagram",
+            "href": "https://instagram.com",
+            "icon": "instagram"
+          },
+          {
+            "name": "Facebook",
+            "href": "https://facebook.com",
+            "icon": "facebook"
+          },
+          {
+            "name": "Twitter",
+            "href": "https://twitter.com",
+            "icon": "twitter"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "copyright": "© QITCHEN",
+      "links": [
+        {
+          "name": "LICENSING",
+          "href": "/licensing"
+        }
+      ]
     }
   },
   "footer": {
@@ -452,17 +527,35 @@
       "quickLinks": {
         "title": "Quick Links",
         "items": [
-          { "name": "Home", "href": "/" },
-          { "name": "Menu", "href": "/menu" },
-          { "name": "About", "href": "/about" },
-          { "name": "Contact", "href": "/contact" }
+          {
+            "name": "Home",
+            "href": "/"
+          },
+          {
+            "name": "Menu",
+            "href": "/menu"
+          },
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Contact",
+            "href": "/contact"
+          }
         ]
       },
       "legal": {
         "title": "Legal",
         "items": [
-          { "name": "Privacy Policy", "href": "/privacy" },
-          { "name": "Terms of Service", "href": "/terms" }
+          {
+            "name": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "name": "Terms of Service",
+            "href": "/terms"
+          }
         ]
       }
     },
@@ -472,9 +565,21 @@
       "email": "reservations@qitchen.com"
     },
     "socialLinks": [
-      { "name": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
-      { "name": "Facebook", "href": "https://facebook.com", "icon": "facebook" },
-      { "name": "Twitter", "href": "https://twitter.com", "icon": "twitter" }
+      {
+        "name": "Instagram",
+        "href": "https://instagram.com",
+        "icon": "instagram"
+      },
+      {
+        "name": "Facebook",
+        "href": "https://facebook.com",
+        "icon": "facebook"
+      },
+      {
+        "name": "Twitter",
+        "href": "https://twitter.com",
+        "icon": "twitter"
+      }
     ],
     "newsletter": {
       "headline": "Stay Updated",
