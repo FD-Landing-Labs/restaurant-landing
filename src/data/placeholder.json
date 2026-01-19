@@ -1,16 +1,16 @@
 {
   "site": {
-    "name": "Qitchen",
+    "name": "AMRA",
     "tagline": "Modern Culinary Excellence",
     "description": "Where culinary craftsmanship meets modern elegance. Experience exceptional flavors, seasonal ingredients, and impeccable service in an unforgettable atmosphere.",
     "logo": {
       "default": "/assets/images/logo.svg",
       "light": "/assets/images/logo-light.svg",
-      "alt": "Qitchen Restaurant Logo"
+      "alt": "AMRA Restaurant Logo"
     },
     "seo": {
-      "title": "Qitchen - Fine Dining Restaurant",
-      "description": "Experience culinary excellence at Qitchen. Award-winning fine dining featuring seasonal ingredients, innovative techniques, and impeccable service.",
+      "title": "AMRA - Fine Dining Restaurant",
+      "description": "Experience culinary excellence at AMRA. Award-winning fine dining featuring seasonal ingredients, innovative techniques, and impeccable service.",
       "keywords": [
         "fine dining",
         "luxury restaurant",
@@ -19,7 +19,7 @@
         "chef's table",
         "upscale dining"
       ],
-      "ogImage": "https://placehold.co/1200x630/0a0a0a/d4af37?text=Qitchen+Restaurant"
+      "ogImage": "https://placehold.co/1200x630/0a0a0a/d4af37?text=AMRA+Restaurant"
     },
     "theme": {
       "primaryColor": "#d4af37",
@@ -31,11 +31,11 @@
     }
   },
   "navbar": {
-    "brandName": "Qitchen",
+    "brandName": "AMRA",
     "logo": {
       "default": "/assets/images/logo.svg",
       "light": "/assets/images/logo-light.svg",
-      "alt": "Qitchen Restaurant Logo"
+      "alt": "AMRA Restaurant Logo"
     },
     "links": [
       {
@@ -61,7 +61,7 @@
     },
     "contact": {
       "phone": "+1 (555) 123-4567",
-      "email": "reservations@qitchen.com"
+      "email": "reservations@AMRA.com"
     },
     "socialLinks": [
       {
@@ -149,7 +149,7 @@
     ],
     "story": {
       "title": "OUR STORY",
-      "content": "Founded with a passion for culinary excellence, Qitchen's journey began in the heart of Prague. Over the years, it evolved into a destination for food lovers, celebrated for its artful mastery and devotion to redefining modern gastronomy."
+      "content": "Founded with a passion for culinary excellence, AMRA's journey began in the heart of Prague. Over the years, it evolved into a destination for food lovers, celebrated for its artful mastery and devotion to redefining modern gastronomy."
     },
     "testimonials": {
       "stats": {
@@ -170,7 +170,7 @@
       "reviews": [
         {
           "id": "1",
-          "quote": "Every bite at Qitchen is a journey of refined flavors. The attention to detail in presentation and taste is exceptional. It's not just dining—it's an art form.",
+          "quote": "Every bite at AMRA is a journey of refined flavors. The attention to detail in presentation and taste is exceptional. It's not just dining—it's an art form.",
           "author": "Sarah Mitchell",
           "role": "Food Critic"
         },
@@ -189,7 +189,7 @@
       ]
     },
     "footer": {
-      "copyright": "© QITCHEN",
+      "copyright": "© AMRA",
       "links": [
         {
           "name": "LICENSING",
@@ -234,7 +234,7 @@
         "name": "Fluffy Pancakes",
         "emoji": "🥞",
         "description": "Soft pancakes with maple syrup.",
-        "price": "$8.00",
+        "price": "Rs 800.00",
         "image": "/assets/images/menu/items/pan-cakes.png"
       },
       {
@@ -243,7 +243,7 @@
         "name": "Avocado Toast",
         "emoji": "🥑",
         "description": "Creamy avocado on artisan sourdough.",
-        "price": "$12.00",
+        "price": "Rs 1200.00",
         "image": "/assets/images/menu/items/avacado-toast.png"
       },
       {
@@ -252,7 +252,7 @@
         "name": "Classic Omelette",
         "emoji": "🍳",
         "description": "Farm-fresh eggs with herbs and cheese.",
-        "price": "$12.00",
+        "price": "Rs 600.00",
         "image": "/assets/images/menu/items/classic-omlette.png"
       },
       {
@@ -261,7 +261,7 @@
         "name": "Berry Parfait",
         "emoji": "🍓",
         "description": "Layered yogurt with fresh berries and granola.",
-        "price": "$12.00",
+        "price": "Rs 720.00",
         "image": "/assets/images/menu/items/berry-parfait.png"
       },
       {
@@ -270,7 +270,7 @@
         "name": "Caesar Salad with Grilled Chicken",
         "emoji": "🥗",
         "description": "Romaine lettuce, chicken, and caesar dressing.",
-        "price": "$15.00",
+        "price": "Rs 1500.00",
         "image": "/assets/images/menu/items/casesar-salad.png"
       },
       {
@@ -279,7 +279,7 @@
         "name": "Wagyu Beef Burger",
         "emoji": "🍔",
         "description": "Premium wagyu patty with truffle aioli.",
-        "price": "$18.00",
+        "price": "Rs 1800.00",
         "image": "/assets/images/menu/items/wagyu-burger.png"
       },
       {
@@ -288,7 +288,7 @@
         "name": "Grilled Salmon Bowl",
         "emoji": "🐟",
         "description": "Fresh salmon with quinoa and vegetables.",
-        "price": "$22.00",
+        "price": "Rs 2200.00",
         "image": "/assets/images/menu/items/grilled-salmon.png"
       },
       {
@@ -297,7 +297,7 @@
         "name": "Truffle Pasta",
         "emoji": "🍝",
         "description": "Fresh pasta with black truffle shavings.",
-        "price": "$24.00",
+        "price": "Rs 1450.00",
         "image": "/assets/images/menu/items/truffle-pasta.png"
       },
       {
@@ -306,7 +306,7 @@
         "name": "Wagyu Ribeye Steak",
         "emoji": "🥩",
         "description": "A5 Japanese wagyu with truffle butter.",
-        "price": "$125.00",
+        "price": "Rs 1250.00",
         "image": "/assets/images/menu/items/wagyu-ribeye.png"
       },
       {
@@ -315,7 +315,7 @@
         "name": "Lobster Thermidor",
         "emoji": "🦞",
         "description": "Classic French preparation with brandy cream.",
-        "price": "$85.00",
+        "price": "Rs 850.00",
         "image": "/assets/images/menu/items/lobstor-thermidor.png"
       },
       {
@@ -324,7 +324,7 @@
         "name": "Duck Confit",
         "emoji": "🦆",
         "description": "Slow-cooked duck leg with cherry reduction.",
-        "price": "$48.00",
+        "price": "Rs 1280.00",
         "image": "/assets/images/menu/items/duck-confit.png"
       },
       {
@@ -333,7 +333,7 @@
         "name": "Chilean Sea Bass",
         "emoji": "🐠",
         "description": "Miso-glazed with bok choy.",
-        "price": "$56.00",
+        "price": "Rs 1560.00",
         "image": "/assets/images/menu/items/sea-bass.png"
       },
       {
@@ -342,7 +342,7 @@
         "name": "Chocolate Soufflé",
         "emoji": "🍫",
         "description": "Dark chocolate with vanilla ice cream.",
-        "price": "$18.00",
+        "price": "Rs 780.00",
         "image": "/assets/images/menu/items/choco-souffle.png"
       },
       {
@@ -351,7 +351,7 @@
         "name": "Crème Brûlée",
         "emoji": "🍮",
         "description": "Classic vanilla custard with caramelized sugar.",
-        "price": "$16.00",
+        "price": "Rs 860.00",
         "image": "/assets/images/menu/items/creme-brulee.png"
       },
       {
@@ -360,7 +360,7 @@
         "name": "Tiramisu",
         "emoji": "☕",
         "description": "Espresso-soaked ladyfingers with mascarpone.",
-        "price": "$16.00",
+        "price": "Rs 1300.00",
         "image": "/assets/images/menu/items/tiramisu.png"
       }
     ]
@@ -369,7 +369,7 @@
     "heroTitle": "BOOK\nA TABLE",
     "heroImage": "/assets/images/reservation/reservation.jpg",
     "formTitle": "RESERVATION",
-    "formDescription": "Secure your spot at Qitchen, where exceptional cuisine and a remarkable dining experience await.",
+    "formDescription": "Secure your spot at AMRA, where exceptional cuisine and a remarkable dining experience await.",
     "form": {
       "fields": [
         {
@@ -420,7 +420,7 @@
       }
     },
     "footer": {
-      "copyright": "© QITCHEN",
+      "copyright": "© AMRA",
       "links": [
         {
           "name": "LICENSING",
@@ -464,7 +464,7 @@
     "googleReview": {
       "title": "Review us on Google",
       "qrCode": "/assets/images/contact/qr.png",
-      "reviewUrl": "https://g.page/r/qitchen/review"
+      "reviewUrl": "https://g.page/r/AMRA/review"
     },
     "map": {
       "coordinates": "8°02'28.5\"N 79°50'24.3\"E",
@@ -484,7 +484,7 @@
       },
       "email": {
         "label": "EMAIL",
-        "value": "info@qitchen.com"
+        "value": "info@AMRA.com"
       },
       "social": {
         "label": "FOLLOW",
@@ -508,7 +508,7 @@
       }
     },
     "footer": {
-      "copyright": "© QITCHEN",
+      "copyright": "© AMRA",
       "links": [
         {
           "name": "LICENSING",
@@ -519,7 +519,7 @@
   },
   "footer": {
     "brand": {
-      "name": "Qitchen",
+      "name": "AMRA",
       "tagline": "Fine Dining Excellence"
     },
     "description": "Where culinary craftsmanship meets modern elegance.",
@@ -562,7 +562,7 @@
     "contact": {
       "address": "123 Gourmet Street, New York, NY 10001",
       "phone": "+1 (555) 123-4567",
-      "email": "reservations@qitchen.com"
+      "email": "reservations@AMRA.com"
     },
     "socialLinks": [
       {
@@ -587,7 +587,7 @@
       "placeholder": "Enter your email",
       "buttonText": "Subscribe"
     },
-    "copyright": "2026 Qitchen. All rights reserved.",
+    "copyright": "2026 AMRA. All rights reserved.",
     "credits": "Designed with passion for culinary excellence"
   }
 }

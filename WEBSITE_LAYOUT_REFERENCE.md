@@ -1,6 +1,6 @@
-# 🍣 Qitchen Restaurant Website Layout Reference
+# 🍣 AMRA Restaurant Website Layout Reference
 
-> Reference website: [https://qitchen-template.framer.website/](https://qitchen-template.framer.website/)
+> Reference website: [https://AMRA-template.framer.website/](https://AMRA-template.framer.website/)
 
 ---
 
@@ -108,10 +108,10 @@
 
 ### 5. Reservation Page (`/reservation`)
 
-| Element        | Details                                                                                          |
-| -------------- | ------------------------------------------------------------------------------------------------ |
-| **Page Title** | "BOOK A TABLE" (spaced letters)                                                                  |
-| **Intro Text** | "Secure your spot at Qitchen, where exceptional sushi and a remarkable dining experience await." |
+| Element        | Details                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| **Page Title** | "BOOK A TABLE" (spaced letters)                                                               |
+| **Intro Text** | "Secure your spot at AMRA, where exceptional sushi and a remarkable dining experience await." |
 
 #### Reservation Form Fields
 

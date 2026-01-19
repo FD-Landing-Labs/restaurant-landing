@@ -223,7 +223,7 @@ function ContactInfoCard() {
           </span>
           <a
             href={`mailto:${info.email.value}`}
-            className="text-sm text-white/80 hover:text-white transition-colors flex-1 text-right"
+            className="text-sm text-white/80 hover:text-white transition-colors flex-1 text-right lowercase"
           >
             {info.email.value}
           </a>

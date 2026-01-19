@@ -30,9 +30,9 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Qitchen - Fine Dining Restaurant",
+  title: "AMRA - Fine Dining Restaurant",
   description:
-    "Experience culinary excellence at Qitchen. Award-winning fine dining featuring seasonal ingredients, innovative techniques, and impeccable service.",
+    "Experience culinary excellence at AMRA. Award-winning fine dining featuring seasonal ingredients, innovative techniques, and impeccable service.",
   keywords: [
     "fine dining",
     "luxury restaurant",

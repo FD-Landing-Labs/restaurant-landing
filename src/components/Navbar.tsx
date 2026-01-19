@@ -127,7 +127,7 @@ export function Navbar() {
               {/* Logo */}
               <Link href="/" className="group pr-2">
                 <span className="font-heading text-xl md:text-2xl tracking-[0.15em] text-primary-200 transition-colors group-hover:text-white">
-                  QITCHEN
+                  AMRA
                 </span>
               </Link>
             </div>

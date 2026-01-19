@@ -355,7 +355,7 @@ export function AboutSection() {
           <div className="absolute inset-0">
             <Image
               src={about.heroImage}
-              alt="About Qitchen"
+              alt="About AMRA"
               fill
               className="object-cover"
               priority
