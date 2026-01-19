@@ -11,15 +11,15 @@ const FloatingBadge = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Badge className="flex flex-row items-center bg-black rounded-md py-1.5 px-2.5 shadow-lg cursor-pointer hover:scale-105 transition-transform">
-            <span className="text-white font-medium text-[8px] uppercase tracking-widest mr-1">
+          <Badge className="flex flex-row items-center bg-white rounded-md py-1.5 px-2.5 shadow-lg cursor-pointer hover:scale-105 transition-transform">
+            <span className="text-black font-bold text-[9px] uppercase tracking-widest mr-1">
               forged by
             </span>
             <Image
-              src="/assets/images/fd-light.svg"
+              src="/assets/images/fd-light.png"
               alt="Logo"
-              width={18}
-              height={18}
+              width={20}
+              height={20}
             />
           </Badge>
         </Link>
