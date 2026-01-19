@@ -108,50 +108,52 @@ export function Navbar() {
   return (
     <>
       {/* Main Navbar */}
-      <header className="fixed top-0 left-0 right-0 z-40 px-4 py-4 md:px-6 lg:px-8">
-        <nav className="flex items-center justify-between max-w-7xl mx-auto">
-          {/* Left side - Hamburger + Logo */}
-          <div className="flex items-center gap-4">
-            {/* Hamburger Menu Button */}
-            <motion.button
-              onClick={() => setIsOpen(true)}
-              className="flex items-center justify-center w-10 h-10 rounded-lg border border-white/10 bg-black/50 backdrop-blur-sm hover:bg-white/5 transition-colors"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              aria-label="Open menu"
-            >
-              <Menu className="w-5 h-5 text-white/80" />
-            </motion.button>
-
-            {/* Logo */}
-            <Link href="/" className="group">
-              <span className="font-heading text-xl md:text-2xl tracking-[0.15em] text-[#f5f0e8] transition-colors group-hover:text-white">
-                QITCHEN
-              </span>
-            </Link>
-          </div>
-
-          {/* Center - Nav Links (Desktop only) */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className="text-sm tracking-[0.2em] text-white/70 hover:text-white transition-colors uppercase"
+      <header className="fixed top-2 left-0 md:top-10 md:left-8 z-40 px-4 py-4 md:px-6 lg:px-8 w-full md:w-auto">
+        <nav className="flex items-center justify-center max-w-7xl mx-auto">
+          <div className="flex items-center justify-between gap-6 px-2 py-2 rounded-2xl bg-black/80 backdrop-blur-md border border-white/10">
+            {/* Left side - Hamburger + Logo */}
+            <div className="flex items-center gap-4">
+              {/* Hamburger Menu Button */}
+              <motion.button
+                onClick={() => setIsOpen(true)}
+                className="flex items-center justify-center w-10 h-10 rounded-lg bg-white/10 hover:bg-white/10 transition-colors cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                aria-label="Open menu"
               >
-                {link.name}
-              </Link>
-            ))}
-          </div>
+                <Menu className="w-5 h-5 text-white/80" />
+              </motion.button>
 
-          {/* Right side - CTA Button */}
-          <Button
-            asChild
-            variant="outline"
-            className="rounded-full border-white/20 bg-transparent text-white/90 hover:bg-white/5 hover:text-white hover:border-white/40 text-xs tracking-[0.15em] uppercase px-5 h-10"
-          >
-            <Link href="/reservation">Book a Table</Link>
-          </Button>
+              {/* Logo */}
+              <Link href="/" className="group pr-2">
+                <span className="font-heading text-xl md:text-2xl tracking-[0.15em] text-primary-200 transition-colors group-hover:text-white">
+                  QITCHEN
+                </span>
+              </Link>
+            </div>
+
+            {/* Center - Nav Links (Desktop only) */}
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-xs tracking-[0.1em] text-primary-200 hover:text-white transition-colors uppercase"
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+
+            {/* Right side - CTA Button */}
+            <Button
+              asChild
+              variant="outline"
+              className="rounded-lg border-white/20 bg-transparent text-primary-100 hover:bg-white/5 hover:text-white hover:border-white/40 text-xs tracking-[0.15em] uppercase px-5 h-10"
+            >
+              <Link href="/reservation">Book a Table</Link>
+            </Button>
+          </div>
         </nav>
       </header>
 
@@ -168,7 +170,7 @@ export function Navbar() {
             {/* Close Button */}
             <motion.button
               onClick={() => setIsOpen(false)}
-              className="absolute top-4 left-4 md:top-6 md:left-6 flex items-center justify-center w-10 h-10 rounded-lg border border-white/10 hover:bg-white/5 transition-colors"
+              className="absolute top-4 left-4 md:top-6 md:left-6 flex items-center justify-center w-10 h-10 rounded-lg border border-white/10 hover:bg-white/5 transition-colors cursor-pointer"
               variants={menuContentVariants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -199,7 +201,7 @@ export function Navbar() {
                       onClick={() => setIsOpen(false)}
                       className="group relative block"
                     >
-                      <span className="font-heading text-3xl md:text-5xl lg:text-6xl tracking-[0.1em] text-[#f5f0e8] transition-all duration-300 group-hover:text-white">
+                      <span className="font-heading text-3xl md:text-5xl lg:text-6xl tracking-[0.1em] text-primary-200 transition-all duration-300 group-hover:text-white">
                         {link.name.toUpperCase()}
                       </span>
                       {/* Hover underline effect */}
