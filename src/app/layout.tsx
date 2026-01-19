@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { Forum } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import "lenis/dist/lenis.css";
 import { Navbar } from "@/components/Navbar";
+import { SmoothScroll } from "@/components/SmoothScroll";
+import FloatingBadge from "@/components/FloatingBadge";
 
 const forum = Forum({
   weight: "400",
@@ -49,8 +52,11 @@ export default function RootLayout({
       <body
         className={`${forum.variable} ${satoshi.variable} font-body antialiased dark`}
       >
-        <Navbar />
-        {children}
+        <SmoothScroll>
+          <Navbar />
+          {children}
+          <FloatingBadge />
+        </SmoothScroll>
       </body>
     </html>
   );
